@@ -40,9 +40,55 @@ Tool
 
 
 # Principles in Refactoring.
+## What is refactoring?
 *Refactoring*
 * (noun) a change made to the internal structure of software to make it easier to understand and cheaper to modify without changing its observable behavior.
 *  (verb) to restructure software by applying a series of refactorings without changing its observable behavior.
+
+### need to distinguish adding function and refactoring. 
+
+*Adding function*
+* just add new capabilities
+
+*Refactoring*
+* make a point of not adding function, only restructured the code
+
+## Why should you Refactor?
+Refactoring is not cure for all software ills like “silver bullet” but. It is as valuable tool, a pair of silver pliers that helps you keep a good grip on your code. 
+
+### Refactoring improves the design of software
+
+* Refactoring improves the design of software.
+* Refactoring makes software easier to understand.
+* Refactoring helps you find bugs.
+* Refactoring helps you program faster.
+
+## When should you refactor? 
+* The Rule of Three(Three strikes and you refactor )
+* Refactor when you add function
+* Refactor when you need a fix a bug
+* Refactor as you do a code review
+
+Indirection can pay for itself. 
+* To enable sharing of logic.
+* To explain intention and implementation separately.
+* To isolate change.
+* To encode conditional logic .
+
+## Problems with Refactoring
+### Databases
+### Changing interfaces
+* Don’t publish interfaces prematurely. Modify your code ownership policies to smooth refactoring. 
+
+### Design changes that are difficult to refactor
+
+### When shouldn’t you refactor?
+* a deadline is near
+
+### Refactoring and Design
+One argument is that refactoring can be an alternative to upfront design.
+An important result of this change in emphasis is a greater movement toward simplicity of design. 
+Refactoring can lead to simpler designs without sacrificing flexibility 
 
 
 
