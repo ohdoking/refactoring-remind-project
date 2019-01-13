@@ -90,6 +90,14 @@ One argument is that refactoring can be an alternative to upfront design.
 An important result of this change in emphasis is a greater movement toward simplicity of design. 
 Refactoring can lead to simpler designs without sacrificing flexibility 
 
+### Refactoring and Performance 
+* three general approaches to writing fast software 
+- The most serious of these is time budgeting, used often in hard real-time systems .  
+- The second approach is the constant attention approach. 
+- The third approach to performance improvement takes advantage of this 90 percent statistic 
+* Having a well-factored program helps with this style of optimization in two ways. 
+- First, it gives you time to spend on performance tuning. 
+-  Second, with a well-factored program you have finer granularity for your performance analysis. Your profiler leads you to smaller parts of the code, which are easier to tune. 
 
 
 
