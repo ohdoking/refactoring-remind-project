@@ -243,3 +243,10 @@ the sibling.
 
 
 ** Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+
+
+# Reference 
+
+* Refactoring written by M.Folwer
+* [Refactoring and Design Patterns](https://refactoring.guru/)
+* [WikiDocs](https://wikidocs.net)
